@@ -11,3 +11,8 @@ Install Windows Subsystem for Linux and a choice of your Linux Distro
   ```powershell
   Set-ExecutionPolicy Restricted
   ```
+Or , you can just allow one script : 
+
+  ```powershell
+  powershell -ExecutionPolicy Bypass -File wslLinux.ps1
+  ```
